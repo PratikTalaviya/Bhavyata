@@ -31,7 +31,7 @@ function Preloader() {
 
   return (
     <motion.div
-      className={`absolute top-0 w-full h-full bg-cover bg-no-repeat ${isWidthTooLess ? "bg-right" : "bg-center"}`}
+      className={`absolute top-0 w-screen h-screen bg-cover bg-no-repeat ${isWidthTooLess ? "bg-right" : "bg-center"}`}
       style={{
         backgroundImage: `url(${image1})`,
         zIndex: "-20",
@@ -56,7 +56,7 @@ function Preloader() {
         transition={{ delay: 3.7, duration: 1, ease: "easeOut" }}
       ></motion.div>
       <motion.div
-        className="h-[100vh] flex justify-center items-center w-[100vw]"
+        className="h-[100%] flex justify-center items-center w-[100%]"
         initial={{ opacity: 1 }}
         animate={{ opacity: 0 }}
         transition={{ delay: 3, duration: 1 }}
