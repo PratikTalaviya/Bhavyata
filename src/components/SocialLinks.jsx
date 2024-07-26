@@ -59,7 +59,7 @@ function SocialLinks() {
             <div
               className={`h-[35px] w-[35px] rounded-full flex justify-center items-center ${
                 index === 2 ? "border-[7.2px]" : "border-[6.4px]"
-              } border-white`}
+              } border-white hover:border-gray-300 text-white hover:text-gray-300 duration-200`}
             >
               <FontAwesomeIcon
                 icon={link.icon}
@@ -71,7 +71,7 @@ function SocialLinks() {
                     : index === 3
                     ? "text-[28px] mb-[0.5px] ml-[0.5px]"
                     : "text-[28px]"
-                } text-white`}
+                }`}
               />
             </div>
           ) : (
