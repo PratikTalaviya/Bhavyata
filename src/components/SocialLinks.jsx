@@ -6,7 +6,7 @@ import { faSquareInstagram, faSquareBehance, faLinkedin, faSquareWhatsapp } from
 const links = [
   {
     name: "Instagram",
-    url: "https://www.instagram.com/bhavyata_architects/?igsh=N2lpZGJmMTJpZDA5",
+    url: "https://www.instagram.com/",
     icon: faSquareInstagram,
   },
   {
