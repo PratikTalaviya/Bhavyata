@@ -61,13 +61,13 @@ function Preloader() {
         animate={{ opacity: 0 }}
         transition={{ delay: 3, duration: 1 }}
       >
-        <motion.img
+{/*         <motion.img
           className="h-[7rem] sm:h-[8rem]"
           src={Logo}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.1, duration: 2 }}
-        />
+        /> */}
         <div className="flex justify-center items-center flex-col ml-[0.5rem] font-rajdhani">
           <AnimatedText text="BHAVYATA" className="text-[1.6rem] tracking-[0.55rem] sm:text-4xl sm:tracking-[0.8rem]" />
           <AnimatedText
